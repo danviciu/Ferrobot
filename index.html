@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FerroBot - Asistent Mecanică Clasa a IX-a</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f2f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #1e293b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .content {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #1e40af;
+    }
+    .chatbot-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #2563eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .chatbot-icon img {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FerroBot - Asistent pentru lecția „Aliaje feroase”</h1>
+  </header>
+
+  <div class="content">
+    <h2>Ce este FerroBot?</h2>
+    <p>FerroBot este un chatbot educațional creat special pentru elevii de clasa a IX-a, care studiază lecția „Aliaje feroase: oțeluri și fonte” din disciplina Mecanică. Acesta te ajută să înțelegi concepte esențiale despre oțeluri, fonte, proprietăți și utilizări.</p>
+
+    <h2>Cum folosești FerroBot?</h2>
+    <ul>
+      <li>Apasă pe iconița albastră din colțul din dreapta jos al ecranului.</li>
+      <li>Adresează întrebări clare legate de lecția despre aliaje feroase.</li>
+      <li>FerroBot îți va răspunde doar dacă întrebarea este relevantă pentru această lecție.</li>
+    </ul>
+
+    <h2>Important!</h2>
+    <p>Dacă întrebi ceva din afara temei (cum ar fi matematică, istorie sau întrebări personale), FerroBot îți va reaminti că este dedicat strict lecției de mecanică.</p>
+  </div>
+  </div>
+  <script>
+  </script>
+  <footer style="text-align: center; padding: 1rem; background: #e2e8f0; color: #333; font-size: 0.9rem; margin-top: 2rem;">
+    Proiect realizat de <strong>ing. Dan Voicu</strong> – pentru lecția „Aliaje feroase: oțeluri și fonte”, disciplina Mecanică, clasa a IX-a.
+  </footer> 
+  <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6742d1cfa4ee84b45ac66c51' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+</body>
+</html>
